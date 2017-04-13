@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Text to speech(TTS) Extension",
+  "description": "This extension can speak any text on the webpage just by selecting the text",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
