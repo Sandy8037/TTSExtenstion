@@ -1,3 +1,7 @@
+(function () {
+
+'use strict';
+
 var body = document.getElementsByTagName('body');
 var att = document.createAttribute('onmouseup');
 att.value = 'mouseUp()';
@@ -29,3 +33,5 @@ chrome.runtime.onMessage.addListener(
       speechSynthesis.cancel();
     }
 });
+
+})();

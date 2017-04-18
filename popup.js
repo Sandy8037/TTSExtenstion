@@ -1,3 +1,7 @@
+(function () {
+
+'use strict';
+
 chrome.tabs.executeScript(null, {file: 'content_script.js'});
 
 document.getElementById('pause').addEventListener('click', function () {
@@ -20,3 +24,5 @@ document.getElementById('cancel').addEventListener('click', function () {
     });
   });
 });
+
+})();
