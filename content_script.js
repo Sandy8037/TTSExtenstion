@@ -1,6 +1,3 @@
-(function () {
-
-'use strict';
 
 var body = document.getElementsByTagName('body');
 var att = document.createAttribute('onmouseup');
@@ -33,5 +30,3 @@ chrome.runtime.onMessage.addListener(
       speechSynthesis.cancel();
     }
 });
-
-})();
