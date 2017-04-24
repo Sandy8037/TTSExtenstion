@@ -1,5 +1,6 @@
 
 chrome.tabs.executeScript(null, {file: 'content_script.js'});
+chrome.tabs.executeScript(null, {file: 'new_script.js'});
 
 document.getElementById('pause').addEventListener('click', function () {
   chrome.tabs.query({active: true, currentWindow: true}, function (tabs) {
